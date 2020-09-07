@@ -13,9 +13,20 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: 'Mrright024/mrright024.github.io',
+      maxLevel: 3,
+      loadNavbar: true,
+      loadSidebar: true,
+      mergeNavbar: true,
+      autoHeader: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script>
+       if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('sw.js')
+       }
+   </script>
 </body>
 </html>
