@@ -12,13 +12,18 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: '<strong>暨珠生存手册</strong>',
       repo: 'Mrright024/mrright024.github.io',
-      maxLevel: 3,
       loadNavbar: true,
       loadSidebar: true,
-      mergeNavbar: true,
-      autoHeader: true
+      maxLevel: 4,
+      subMaxLevel: 2,
+      count:{
+          countable:true,
+          fontsize:'0.9em',
+          color:'rgb(90,90,90)',
+          language:'chinese'
+        }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -27,6 +32,8 @@
        if (typeof navigator.serviceWorker !== 'undefined') {
           navigator.serviceWorker.register('sw.js')
        }
-   </script>
+  </script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 </html>
