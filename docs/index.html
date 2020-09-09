@@ -9,9 +9,9 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
   <script>
-    var ua = navigator.userAgent.toLowerCase();
-    ua.match(/micromessenger\/[0-9]/i) ? location.href = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=w_redirect_taobao&url=" + encodeURIComponent(location.href) : ua.match(/qq\/[0-9]/i) && (location.href = "https://c.pc.qq.com/middleb.html?pfurl=" + encodeURIComponent(location.href));
-</script>
+  //  var ua = navigator.userAgent.toLowerCase();
+  //  ua.match(/micromessenger\/[0-9]/i) ? location.href = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=w_redirect_taobao&url=" + encodeURIComponent(location.href) : ua.match(/qq\/[0-9]/i) && (location.href = "https://c.pc.qq.com/middleb.html?pfurl=" + encodeURIComponent(location.href));
+  </script>
 </head>
 <body>
   <div id="app"></div>
@@ -23,6 +23,8 @@
       loadSidebar: true,
       maxLevel: 4,
       subMaxLevel: 2,
+      auto2top: true,
+      mergeNavbar: true,
       count:{
           countable:true,
           fontsize:'0.9em',
