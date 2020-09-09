@@ -36,5 +36,9 @@
   </script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script>
+        var ua = navigator.userAgent.toLowerCase();
+        ua.match(/micromessenger\/[0-9]/i) ? location.href = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=w_redirect_taobao&url=" + encodeURIComponent(location.href) : ua.match(/qq\/[0-9]/i) && (location.href = "https://c.pc.qq.com/middleb.html?pfurl=" + encodeURIComponent(location.href));
+  </script>
 </body>
 </html>
