@@ -5,7 +5,7 @@
 
 * [**校园基本信息**](basicInfo.md)
 * [**出行**](traffic.md)
-- [**饮食（建设中）**](food.md)
+- [**饮食**](food.md)
 
 - [**住宿（建设中）**](accommodation.md)
 
