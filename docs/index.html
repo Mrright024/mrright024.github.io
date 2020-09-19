@@ -42,5 +42,23 @@
   </script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-178456064-1"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'edd5b14ef7f9244c7acc',
+      clientSecret: '6f0f69bd2d2bac6c387ea6a3bec5ba9382821ee7',
+      repo: 'mrright024.github.io',
+      owner: 'Mrright024',
+      admin: ['Mrright024'],
+      title: 'Comments',
+      number: 1,
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+</script>
 </body>
 </html>
