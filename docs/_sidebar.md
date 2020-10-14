@@ -7,7 +7,7 @@
 * [**出行**](traffic.md)
 - [**饮食**](food.md)
 
-- [**住宿（建设中）**](accommodation.md)
+- [**住宿**](accommodation.md)
 
 - [**网络**](network.md)
 
